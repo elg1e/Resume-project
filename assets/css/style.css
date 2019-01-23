@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+body {
+    background-color: #525252;
+}
 
 /*----------------------------------Extras-----------------*/
 
@@ -248,6 +251,33 @@ header {
     margin-bottom: 30px;
 }
 
+/*---------------------------------Contact---------------------*/
+
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #3498db;
+    color: #fafafa;
+}
+
+
 
 
 /*---------------------------------Footer---------------------*/
@@ -330,5 +360,12 @@ footer .cv-pdf i:hover {
         padding: 0 30px 30px;
         float: none;
         display: table-cell;
+    }
+    
+    .center-form {
+        padding-top: 30px;
+        margin: 0 auto;
+        max-width: 50%;
+        min-height: 240px;
     }
 }
